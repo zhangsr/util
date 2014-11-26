@@ -1,4 +1,4 @@
-package com.cvte.sdk.update.util;
+package com.cvte.utils;
 
 import android.text.TextUtils;
 import android.util.Log;

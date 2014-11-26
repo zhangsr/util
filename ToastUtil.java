@@ -1,4 +1,4 @@
-package com.cvte.sdk.update.util;
+package com.cvte.utils;
 
 import android.content.Context;
 import android.os.Handler;

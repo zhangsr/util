@@ -1,4 +1,4 @@
-package com.cvte.sdk.update.util;
+package com.cvte.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,8 +7,6 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.text.TextUtils;
-
-import com.cvte.sdk.update.AppKeyNotExistException;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
