@@ -1,4 +1,4 @@
-package com.cvte.utils;
+package com.cvte.util;
 
 /**
  * @description: Api for resource.

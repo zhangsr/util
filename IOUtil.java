@@ -1,4 +1,4 @@
-package com.cvte.utils;
+package com.cvte.util;
 
 import java.io.IOException;
 import java.io.InputStream;

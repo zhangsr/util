@@ -1,4 +1,4 @@
-package com.cvte.utils;
+package com.cvte.util;
 
 import android.content.Context;
 import android.content.Intent;
