@@ -7,7 +7,7 @@ import java.io.Reader;
 import java.io.UnsupportedEncodingException;
 
 /**
- * @description:
+ * @description: Api for io operations.
  * @author: Saul
  * @date: 14-11-26
  * @version: 1.0
