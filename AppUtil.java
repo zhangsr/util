@@ -109,4 +109,9 @@ public final class AppUtil {
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         return  intent;
     }
+
+    public static String getAppName(Context context) {
+        int stringId = context.getApplicationInfo().labelRes;
+        return context.getString(stringId);
+    }
 }
