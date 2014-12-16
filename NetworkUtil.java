@@ -27,4 +27,10 @@ public class NetworkUtil {
         NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
         return (networkInfo != null && networkInfo.isConnected() && networkInfo.getType() == ConnectivityManager.TYPE_WIFI);
     }
+
+    public static String getDeviceMac(Context context) {
+        android.net.wifi.WifiManager wifi = (android.net.wifi.WifiManager)
+                context.getSystemService(Context.WIFI_SERVICE);
+        return wifi.getConnectionInfo().getMacAddress();
+    }
 }
